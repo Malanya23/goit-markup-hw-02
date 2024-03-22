@@ -1,3 +1,3 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 ##About
-my-site:https://malanya23.github.io/goit-markup-hw-01/
+https://malanya23.github.io/goit-markup-hw-02/
