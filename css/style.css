@@ -115,6 +115,16 @@ a{
 
 /*Section 2*/
 
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 
 .title-primary{
  font-family:"Roboto";
@@ -218,20 +228,20 @@ a{
   font-family:"Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4f4;
+  color: #4d5ae5;
 }
 
 .logo-footer-text {
   font-family:"Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color:#f4f4fd;
 }
 
 .text{
@@ -240,6 +250,10 @@ a{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4f4;       
+  color:var(--main-text-color)
+       
 }
 
+:root {
+  --main-text-color: #F4F4FD;
+}
