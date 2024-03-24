@@ -1,5 +1,5 @@
 body {
-    font-family:"Roboto","Raleway", sans-serif;
+    font-family:"Roboto", sans-serif;
     color: #434455;
     font-size: 14px;
     background-color: #ffffff;
@@ -52,7 +52,7 @@ a{
   }
   
 
-  .header-list-title:hover , .header-list-title:active{
+  .header-list:hover , .header-list:focus{
     color:#404bbf;
     text-decoration:underline;
   }
@@ -71,14 +71,14 @@ a{
   color: #434455;
   }
 
-  .contact-list:hover , .contact-list:active{
+  .contact-list:hover , .contact-list:focus{
     color:#404bbf
   }
 
   /*Main-Content*/
 
 .main-container{
-    font-family:"Roboto";
+    font-family:"Roboto" sans-serif;
     font-weight: 700;
     font-size: 56px; 
     line-height: 1.07;
@@ -86,6 +86,16 @@ a{
     text-align: center;
     color:#ffffff;
     background-color: #2e2f42;
+}
+
+.main-title{
+  font-family:"Roboto";
+  font-weight:700;
+  font-size:56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;          ;
 }
 
 .main-button{
@@ -99,15 +109,12 @@ a{
  cursor: pointer;
 }
 
-.main-button:hover .main-button:active{
+.main-button:hover , .main-button:focus{
   background-color: #404bbf ;
 }
 
-/*Work*/
+/*Section 2*/
 
-.container{
-  
-}
 
 .title-primary{
  font-family:"Roboto";
@@ -127,16 +134,25 @@ a{
  color: #434455; 
 }
 
-/*Images*/
+/*Section 3*/
+
+.container{
+  background-color: #f4f4fd;
+}
 
 .image-title{
  font-family:"Roboto";
  font-weight: 700;
  font-size: 36px; 
- line-height: 1.11111;
+ line-height: 1.11;
  letter-spacing: 0.02em;
  text-align: center;
  color: #2e2f42;
+ text-transform: capitalize;
+}
+
+.list{
+  background-color: #ffffff;
 }
 
 .photo-title{
@@ -159,30 +175,31 @@ a{
  color:#434455 
 }
 
-/*Portfolio*/
+/*Section 4*/
 
 .portfolio-title{
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .project-title{
-  font-family:"Roboto";
+  font-family:"Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2 ;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;          
 }
 
 .project-paragraph{
-  font-family:"Roboto";
+  font-family:"Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
