@@ -7,12 +7,38 @@ body {
   
 ul{
     list-style-type: none;
+    padding-left:0 ;
+    margin: 0;
 }
 
 a{
   text-decoration:none
 }
+
+img {
+	display: block;
+  max-width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p{
+  margin: 0;
+}
+
  /*Хедер*/
+  
+.header{
+  border-bottom: 1px solid #e7e9e7;
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
+}
 
    .logo {
     font-family:"Raleway", sans-serif;
@@ -24,6 +50,8 @@ a{
     text-transform: uppercase;
   }
 
+   
+
   .logo-text {
     font-family:"Raleway", sans-serif;
     font-weight: 700;
@@ -31,7 +59,11 @@ a{
     color: #2e2f42;
  }
 
- .header-list {
+ .header-list{
+  display: flex;
+}
+
+ .header-list-item {
     font-family:"Roboto";
     font-weight: 500;
     font-size: 16px;
@@ -39,7 +71,9 @@ a{
     letter-spacing: 0.02em;
     color: #2e2f42; 
     text-decoration: none;
+    margin-right: 10px;
   }
+
 
   .header-list-title{
     font-family:"Roboto";
@@ -52,7 +86,7 @@ a{
   }
   
 
-  .header-list:hover , .header-list:focus{
+  .header-list-item:hover , .header-list:focus{
     color:#404bbf;
     text-decoration:underline;
   }
@@ -86,6 +120,7 @@ a{
     text-align: center;
     color:#ffffff;
     background-color: #2e2f42;
+   
 }
 
 .main-title{
@@ -174,6 +209,10 @@ a{
  color:#434455 
 }
 
+.image-container{
+  background-color: #2e2f42;
+}
+
 /*Section 4*/
 
 .portfolio-title{
@@ -246,3 +285,20 @@ a{
 :root {
   --main-text-color: #F4F4FD;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
